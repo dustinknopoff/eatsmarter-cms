@@ -2,20 +2,21 @@
 templateKey: index-page
 title: Eat Smarter Today
 image: /img/ray-hennessy-hlj7u9whrr8-unsplash.jpg
-heading: Registered Dietitian and Nutritionist
+heading: Making a plan
 subheading: 'with Jill Knopoff, MS, RD'
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: A bit about Jill
+  description: >-
+    Jill Knopoff is a Registered Dietitian and Nutritionist with over 25 years
+    of experience working with various health conditions. Jill's main philosophy
+    is to start at the beginning with each client. When a client is met where
+    they are, changes small and large can be made to arrive at a determined
+    destination. There isn't any one particular diet or protocol.  Each person
+    is an individual and requires a personalized nutrition plan.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Jill has a Master of Science in Nutrition and has worked in the clinical
+  setting as well as her private practice. She is now utilizing functional
+  nutrition to evaluate best practice to achieve optimal health.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,7 +46,7 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: Functional Nutrition
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
