@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Eat Smarter Today
 image: /img/ray-hennessy-hlj7u9whrr8-unsplash.jpg
-heading: Great coffee with a conscience
+heading: Registered Dietitian and Nutritionist
 subheading: 'with Jill Knopoff, MS, RD'
 mainpitch:
   title: Why Kaldi
