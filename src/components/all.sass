@@ -6,6 +6,7 @@ $eat-smarter-blue: #76a5bc
 $eat-smarter-blue-invert: #fff
 
 $primary: $eat-smarter-blue
+$primary-saturate-20: saturate($primary, 4)
 $primary-invert: $eat-smarter-blue-invert
 $body-color: #333
 $black: #2b2523
@@ -61,10 +62,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $primary-saturate-20
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $primary-saturate-20
+    box-shadow: inset 0 0 0 2px $primary-saturate-20
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -115,7 +116,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: rgba($primary-saturate-20, 0.33);
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
