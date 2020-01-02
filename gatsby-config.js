@@ -66,8 +66,18 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-favicon`,
-      options: { logo: "./src/img/logo.svg" }
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Eat Smarter Today with Jill",
+        short_name: "Eat Smarter with Jill",
+        start_url: "/",
+        background_color: "#76a5bc",
+        theme_color: "#fff",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: "src/img/logo.svg" // This path is relative to the root of the site.
+      }
     },
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
