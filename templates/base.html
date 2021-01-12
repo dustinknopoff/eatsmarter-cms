@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#003f19" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Eat Smarter Today with Jill"
+    />
+    <meta name="application-name" content="Eat Smarter Today with Jill" />
+    <meta name="msapplication-TileColor" content="#003f19" />
+    <meta name="theme-color" content="#003f19" />
+    <title>Eat Smarter Today with Jill</title>
+    <link rel="stylesheet" href="normalize.minify.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    <main>{%block content%} {%endblock%}</main>
+  </body>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</html>
