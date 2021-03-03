@@ -1,6 +1,6 @@
----
-title: "Eat Smarter Today" 
----
++++
+title="Eat Smarter Today" 
++++
 
 # Eat Smarter Today with Jill
 
